@@ -1,9 +1,9 @@
 export const options = {
-    url: 'http://localhost:3000',
+    url: 'https://mysterious-plains-91358.herokuapp.com',
     apiOptions: {
-        baseUrl: 'http://localhost:3001',
-        authUrl: 'http://localhost:3001/auth',
-        apiUrl: 'http://localhost:3001/api/v1'
+        baseUrl: 'https://mysterious-plains-91358.herokuapp.com',
+        authUrl: 'https://mysterious-plains-91358.herokuapp.com/auth',
+        apiUrl: 'https://mysterious-plains-91358.herokuapp.com/api/v1'
     },
     info: {
         phone: '+520680053570',
