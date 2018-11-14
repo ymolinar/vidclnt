@@ -13,7 +13,7 @@ export const UserInfo = ({user}) => {
                 </div>
             </li>
             <li className='clearfix'><Link to="/auth/logout">Logout</Link></li>
-            <li className='clearfix'><Link to="/user/profile">Profile</Link></li>
+            <li className='clearfix'><Link to="/user/profile/loans">Profile</Link></li>
         </ul>
     )
 };

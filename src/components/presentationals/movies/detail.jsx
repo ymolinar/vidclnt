@@ -37,13 +37,7 @@ export const MovieDetail = ({selectedMovie, loadingMovie, options, added, addToC
                                     className="product_name">{selectedMovie.title} ({selectedMovie.release_date.substr(0, 4)})
                                 </div>
                                 <div className="product_text">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-                                        elit. Maecenas fermentum. laoreet turpis, nec sollicitudin dolor cursus at.
-                                        Maecenas
-                                        aliquet, dolor a faucibus efficitur, nisi tellus cursus urna, eget dictum
-                                        lacus
-                                        turpis.
-                                    </p>
+                                    <p>{selectedMovie.synopsis}</p>
                                 </div>
                                 <hr/>
                                 <div>

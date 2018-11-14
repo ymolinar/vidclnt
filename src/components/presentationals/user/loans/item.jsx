@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from "react-router-dom";
+import moment from 'moment'
 
 
 export const LoanItem = ({loan, options, returnLoan}) => {
@@ -41,9 +42,8 @@ export const LoanItem = ({loan, options, returnLoan}) => {
                         <h4>Invoice No.</h4>
                         <h4 className="text-navy">INV-000567F7-{loan.id}</h4>
                         <p>
-                            <span><strong>Invoice Date:</strong> {loan.created_at}</span><br/>
-                            <span><strong>Due Date:</strong> {loan.expire_at}</span><br/>
-                            <span><strong>Due Date:</strong> March 24, 2014</span>
+                            <span><strong>Loan Date:</strong> {moment(loan.created_at).format('MMMM DD, YYYY')}</span><br/>
+                            <span><strong>Expected Return Date:</strong> {moment(loan.expire_at).format('MMMM DD, YYYY')}</span><br/>
                         </p>
                     </div>
                 </div>

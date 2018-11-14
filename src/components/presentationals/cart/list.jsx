@@ -1,4 +1,5 @@
 import React from 'react'
+import moment from 'moment'
 
 export const CartList = ({movies, options, removeFromCart, clearCart, checkout, user}) => {
     const cartTotal = () => {
@@ -47,7 +48,7 @@ export const CartList = ({movies, options, removeFromCart, clearCart, checkout, 
                                                     </div>
                                                     <div className="cart_item_color cart_info_col">
                                                         <div className="cart_item_title">Release Date</div>
-                                                        <div className="cart_item_text">{movie.release_date}</div>
+                                                        <div className="cart_item_text">{moment(movie.release_date).format('MMMM DD, YYYY')}</div>
                                                     </div>
                                                     <div className="cart_item_quantity cart_info_col">
                                                         <div className="cart_item_title">Country</div>

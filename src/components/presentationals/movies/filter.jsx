@@ -17,7 +17,7 @@ export const MovieFilter = ({filters, categories, loadingCategories, handleFilte
                     </ul>}
             </div>
             <div className="sidebar_section">
-                <div className="sidebar_subtitle brands_subtitle">Brands</div>
+                <div className="sidebar_subtitle brands_subtitle">Classification</div>
                 <ul className="brands_list">
                     {['G', 'PG', 'PG-13', 'R', 'NC-17'].map((classification, index) => {
                         return (
