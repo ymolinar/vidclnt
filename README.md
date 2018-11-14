@@ -456,7 +456,7 @@ class App extends Component {
         // Use moduleA
       })
       .catch(err => {
-        // Handle failure
+        requestFailure
       });
   };
 

@@ -1,0 +1,74 @@
+/*Movies CSS File*/
+
+.product_image {
+    height: 200px !important;
+}
+
+.product_name div a {
+    white-space: normal !important;
+}
+
+.sidebar_categories .badge {
+    margin-left: 5px;
+}
+
+.classification, .category {
+    margin-bottom: 7px;
+}
+
+.classification a, .category a {
+    color: rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.page_nav li span {
+    color: #721c24;
+    font-weight: bold;
+}
+
+.custom-file {
+    margin-bottom: 1rem;
+}
+
+.react-widget-dropdown .invalid-feedback {
+    display: block !important;
+}
+
+.react-widget-dropdown .is-invalid {
+    border-color: #dc3545;
+}
+
+.product_fav i {
+    color: #0e8ce4 !important;
+}
+
+.product_fav i.remove-from-cart {
+    color: #dc3545 !important;
+}
+
+.loan_active {
+    border-color: #dc3545 !important;
+}
+
+.detail_edit_button {
+    margin-left: 5px;
+
+}
+
+.product_item {
+    justify-content: normal;
+}
+
+.product_border_in_cart {
+    display: block;
+    position: absolute;
+    top: 52px;
+    right: 1px;
+    width: 2px;
+    height: calc(100% - 71px);
+    background: #dc3545 !important;
+}

@@ -1,0 +1,8 @@
+export const loanConstants = {
+    ALL: 'ALL_LOANS',
+    ADD: 'ADD_LOAN',
+    SUCCESS: 'REQUEST_LOAN_SUCCESS',
+    ERROR: 'REQUEST_LOAN_FAILURE',
+    REQUEST: 'REQUEST_LOAN',
+    CLOSE: 'CLOSE_LOAN'
+};
